@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+.logo {
+  width: 55px;
+}
+
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#container-text {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #f74780;
+  font-weight: bolder;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+.p-center {
+  font-size: 20px;
+  text-align: justify;
+  margin-bottom: 30px;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-mid {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  max-width: 100%;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.card-container .card-title-text {
+  color: #f74780;
+  font-weight: bolder;
+  text-align: center;
+}
+.card-container .card-text2 {
+  text-align: justify;
+}
+
+section {
+  padding: 40px 0;
+}
+
+section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 18px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.video-table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.video-table th, .video-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+.video-table th {
+  background-color: #fa6998;
+  color: white;
+}
+.video-table td {
+  background-color: #fff2f6;
+}
+.video-table .table-image {
+  max-width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+.video-table .image-cell {
+  width: 100px;
+}
+.video-table .title-cell {
+  vertical-align: middle;
+}
+.video-table tr {
+  font-size: 18px;
+}
+
+.section {
+  background-color: #f9f9f9;
+  padding: 40px;
+}
+.section .section-title {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #f74780;
+}
+.section .section-content {
+  font-size: 18px;
+}/*# sourceMappingURL=styles.css.map */
